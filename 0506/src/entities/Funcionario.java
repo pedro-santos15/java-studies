@@ -1,6 +1,6 @@
 package entities;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private double salarioBase;
 
@@ -25,9 +25,8 @@ public class Funcionario {
         this.salarioBase = salarioBase;
     }
 
-    public double calcularSalario(){
-        return salarioBase;
-    }
+    public abstract double calcularSalario();
+
 
     @Override
     public String toString() {

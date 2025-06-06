@@ -1,23 +1,33 @@
 # java-studies
 
-Repositório para armazenar meus projetos de prática em Java, organizados por data no formato `ddmm`.
+Repositório dedicado aos meus projetos de prática em Java, organizados por data no formato **ddmm**.
 
-## 📁 Projetos
+📁 **Projetos**
 
-### 📅 03/06
-- **Calculadora Simples**
-- Prática de estruturas básicas: métodos, entrada de dados, switch-case.
+### 📅 03/06 — Calculadora Simples
+Implementação de uma calculadora com operações básicas.  
+Prática de estruturas fundamentais como: métodos, entrada de dados e controle de fluxo com `switch-case`.
 
-### 📅 04/06
-- **Cadastro de Produto**
-- Prática de orientação a objetos: encapsulamento, métodos `get` e `set`, e sobreposição com `toString`.
+### 📅 04/06 — Cadastro de Produto
+Sistema simples de cadastro e exibição de produtos.  
+Prática de conceitos de **Orientação a Objetos**, incluindo:
+- Encapsulamento
+- Métodos `get` e `set`
+- Sobrescrita com `toString()`
 
-### 📅 05/06
-- **Funcionários**
-- Prática de herança e polimorfismo. Contém uma hierarquia com `Funcionario`, `Estagiario` e `Gerente`.
+### 📅 05/06 — Funcionários
+Modelo de hierarquia com classes `Funcionario`, `Estagiario` e `Gerente`.  
+Prática de **Herança** e **Polimorfismo**.  
+No dia 06/06, o projeto foi refatorado para aplicar **classes e métodos abstratos**, exigindo que subclasses implementem `calcularSalario()`.
+
+### 📅 06/06 — Tratamento de Exceções
+Projetos simples demonstrando o uso de `try-catch` para capturar exceções.  
+Inclui também refatoração da calculadora (03/06) com tratamento de erros.
 
 ---
 
-Cada projeto contém uma `Main` para execução e uma ou mais classes de apoio dentro do pacote `entities`.
+Cada projeto contém:
+- Uma classe `Main` para execução.
+- Classes auxiliares organizadas no pacote `entities` ou conforme o contexto.
 
-> Apenas para fins de estudo e prática pessoal.
+📌 **Observação:** Todos os projetos têm fins educacionais e servem como prática pessoal durante meu aprendizado em Java.

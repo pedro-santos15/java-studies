@@ -24,7 +24,7 @@ No dia 06/06, o projeto foi refatorado para aplicar **classes e métodos abstrat
 Projetos simples demonstrando o uso de `try-catch` para capturar exceções.  
 Inclui também refatoração da calculadora (03/06) com tratamento de erros.
 
-📅 07/06 — Mini CRUD de Produtos  
+### 📅 07/06 — Mini CRUD de Produtos  
 Sistema completo via terminal com cadastro, listagem, atualização e remoção de produtos.  
 Prática de:  
 - Organização de pacotes por responsabilidade  
